@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Clipp",
+    "slug": "my-app",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#72D292"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.clipp",
+      "publishBundlePath": "ios/clipp/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/clipp/Supporting/shell-app-manifest.json"
+    },
+    "scheme": "expc46f06de100e4120b96cff9ec99075b4",
+    "android": {
+      "package": "com.app.clipp",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+export default colors = {
+  WHITE: "#FFFFFF",
+  DARK_GREEN_THEME: "#65CE88",
+  LIGHT_GREEN_THEME: "#71D290",
+  LIGHTER_GREEN_THEME: "#E1F5E8",
+  BLUE_FONT: "#007AFF",
+};
